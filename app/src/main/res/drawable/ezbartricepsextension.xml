@@ -1,0 +1,18 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/ezt" android:duration="170" />
+    <item android:drawable="@drawable/ezt2" android:duration="170" />
+    <item android:drawable="@drawable/ezt3" android:duration="170" />
+    <item android:drawable="@drawable/ezt4" android:duration="170" />
+    <item android:drawable="@drawable/ezt5" android:duration="170" />
+    <item android:drawable="@drawable/ezt6" android:duration="170" />
+    <item android:drawable="@drawable/ezt7" android:duration="170" />
+    <item android:drawable="@drawable/ezt8" android:duration="170" />
+    <item android:drawable="@drawable/ezt9" android:duration="170" />
+    <item android:drawable="@drawable/ezt10" android:duration="170" />
+    <item android:drawable="@drawable/ezt11" android:duration="170" />
+
+</animation-list>

@@ -1,0 +1,18 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/ck" android:duration="170" />
+    <item android:drawable="@drawable/ck2" android:duration="170" />
+    <item android:drawable="@drawable/ck3" android:duration="170" />
+    <item android:drawable="@drawable/ck4" android:duration="170" />
+    <item android:drawable="@drawable/ck5" android:duration="170" />
+    <item android:drawable="@drawable/ck6" android:duration="170" />
+    <item android:drawable="@drawable/ck7" android:duration="170" />
+    <item android:drawable="@drawable/ck8" android:duration="170" />
+    <item android:drawable="@drawable/ck9" android:duration="170" />
+    <item android:drawable="@drawable/ck10" android:duration="170" />
+    <item android:drawable="@drawable/ck11" android:duration="170" />
+
+</animation-list>

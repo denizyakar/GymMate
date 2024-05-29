@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".TricepsActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="411dp"
+        android:layout_height="598dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/cablePushdown"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/ezBarTricepsExtension"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/cableOneArmTricepPushdown"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/oldSchoolReverseExtensions"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/dumbbellInclineTricepsKickback"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/dumbbellStandingTricepsExtension"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Cable Pushdown 3x12
+                                                        The cable pushdown primarily targets the triceps brachii muscle, which is located on the back of the upper arm."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="EZ Bar Triceps Extensions 3x12
+                                            The EZ bar triceps extensions, also known as skull crushers, primarily target the long head of the triceps brachii muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Cable One Arm Tricep Pushdown 3x12
+                            The cable one-arm triceps pushdown primarily targets the lateral head of the triceps brachii muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Old School Reverse Extensions 3x12
+                        Old school reverse extensions primarily targets the long head of the triceps brachii muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Incline Triceps Kickback 3x12
+                    The dumbbell incline triceps kickback primarily targets the long head of the triceps brachii muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Standing Triceps Extensions 3x12
+            The dumbbell standing triceps extensions, also known as overhead triceps extensions or French presses, primarily target the long head of the triceps brachii muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="5" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

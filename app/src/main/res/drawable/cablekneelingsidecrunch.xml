@@ -1,0 +1,30 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/cks" android:duration="170" />
+    <item android:drawable="@drawable/cks2" android:duration="170" />
+    <item android:drawable="@drawable/cks3" android:duration="170" />
+    <item android:drawable="@drawable/cks4" android:duration="170" />
+    <item android:drawable="@drawable/cks5" android:duration="170" />
+    <item android:drawable="@drawable/cks6" android:duration="170" />
+    <item android:drawable="@drawable/cks7" android:duration="170" />
+    <item android:drawable="@drawable/cks8" android:duration="170" />
+    <item android:drawable="@drawable/cks9" android:duration="170" />
+    <item android:drawable="@drawable/cks10" android:duration="170" />
+    <item android:drawable="@drawable/cks11" android:duration="170" />
+    <item android:drawable="@drawable/cks12" android:duration="170" />
+    <item android:drawable="@drawable/cks13" android:duration="170" />
+    <item android:drawable="@drawable/cks14" android:duration="170" />
+    <item android:drawable="@drawable/cks15" android:duration="170" />
+    <item android:drawable="@drawable/cks16" android:duration="170" />
+    <item android:drawable="@drawable/cks17" android:duration="170" />
+    <item android:drawable="@drawable/cks18" android:duration="170" />
+    <item android:drawable="@drawable/cks19" android:duration="170" />
+    <item android:drawable="@drawable/cks20" android:duration="170" />
+    <item android:drawable="@drawable/cks21" android:duration="170" />
+    <item android:drawable="@drawable/cks22" android:duration="170" />
+    <item android:drawable="@drawable/cks23" android:duration="170" />
+
+</animation-list>

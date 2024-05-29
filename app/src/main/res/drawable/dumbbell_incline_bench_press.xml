@@ -1,0 +1,18 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/ci" android:duration="170" />
+    <item android:drawable="@drawable/ci2" android:duration="170" />
+    <item android:drawable="@drawable/ci3" android:duration="170" />
+    <item android:drawable="@drawable/ci4" android:duration="170" />
+    <item android:drawable="@drawable/ci5" android:duration="170" />
+    <item android:drawable="@drawable/ci6" android:duration="170" />
+    <item android:drawable="@drawable/ci7" android:duration="170" />
+    <item android:drawable="@drawable/ci8" android:duration="170" />
+    <item android:drawable="@drawable/ci9" android:duration="170" />
+    <item android:drawable="@drawable/ci10" android:duration="170" />
+    <item android:drawable="@drawable/ci11" android:duration="170" />
+
+</animation-list>

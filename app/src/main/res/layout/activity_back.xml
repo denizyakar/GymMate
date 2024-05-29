@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BackActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="411dp"
+        android:layout_height="598dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <ImageView
+            android:id="@+id/latPulldown"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/dumbbellBentOverRow"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/barbellBentOverRow"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/cableLowSeatedRow"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/dumbbellInclineRow"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/dumbbellShrug"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Lat Pulldown 3x12
+                                                                    The lat pulldown primarily targets the latissimus dorsi muscles, which are the large muscles in the middle and lower back."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Bent Over Row 3x12
+                                            The dumbbell bent over row primarily targets the middle back."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Barbell Bent Over Row 3x12
+                                            The barbell bent over row primarily targets the middle back and lats (latissimus dorsi) muscles."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Cable Low Seated Row 3x12
+                                            The cable low seated row primarily targets the middle back muscles."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Incline Row 3x12
+                                            The dumbbell incline row primarily targets the upper back."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Shrug 3x12
+                                                        The dumbbell shrug primarily targets the trapezius muscles."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="5" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

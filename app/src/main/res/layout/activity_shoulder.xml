@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ShoulderActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="411dp"
+        android:layout_height="598dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/dumbbellLateralRaise"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/cableOneArmLateralRaise"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/leverLateralRaise"
+            android:layout_width="107dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dumbbell Lateral Raise 3x12
+                                        The dumbbell lateral raise primarily targets the medial deltoid, which is the middle portion of the deltoid muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Cable One Arm Lateral Raise 3x12
+                            The cable one arm lateral raise primarily targets the medial deltoid of the shoulder, which is the middle portion of the deltoid muscle."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:textSize="12sp"
+            android:background="@drawable/rounded_corner"
+            android:text="Lever Lateral Raise 3x12
+                                                The lever lateral raise primarily targets the medial deltoid muscle of the shoulder."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="2" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
