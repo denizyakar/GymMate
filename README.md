@@ -41,6 +41,5 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 # Contact
 For any questions or feedback, you can contact me at:
-
 <br /> E-mail: denizyakar00@gmail.com
 <br /> GitHub: denizyakar
