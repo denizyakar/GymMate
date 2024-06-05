@@ -1,4 +1,3 @@
-GymMate - a Fitness App
 # GymMate - a Fitness App
 
 GymMate is a mobile application developed for users who want to learn and track gym exercises. This application helps users explore exercises targeting different muscle groups and perform them correctly.
